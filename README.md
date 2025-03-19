@@ -65,4 +65,15 @@ python train_distillation.py --dataname emoset --gpu 1
 python train_gate.py --dataname emoset --gpu 1
 ```
 
-## Inference EmoVLM-KD
+## Simple demo
+
+
+```
+python demo.py
+```
+
+
+<div align="center">
+  <img src="demo.png" width="700">
+</div>
+
