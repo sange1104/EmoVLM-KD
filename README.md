@@ -12,12 +12,8 @@ Visual emotion analysis, which has gained considerable attention in the field of
 
 ## Setup 
 **Environmental setup**
-```
-# Clone the repository
-git clone 
-
-# Install dependencies
-pip install -r requirements.txt
+```  
+conda env create -f environment.yml
 ```
 
 **Dataset Structure**
