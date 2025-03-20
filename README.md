@@ -47,6 +47,15 @@ images/
 
 Each category (e.g., amusement, anger, sadness, fear) contains images corresponding to that emotion. 
 
+
+## 0. Emotion-specific Instruction Generation using GPT4
+
+```
+python generate_instruction.py --dataname emoset --api_key <your_api_key>
+```
+Using the vlm_annotation_dir and image_dir from the config file, the training data of the desired dataset (located in image_dir) is processed through GPT-4 to generate an appropriate instruction dataset, which is then saved in vlm_annotation_dir.
+
+
 ## 1. Instruction tuning VLM
 ```
 python train_vlm.py --dataname emoset --gpu 1
