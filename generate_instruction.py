@@ -93,7 +93,7 @@ def process_images(api_key, dataname, prompt_file_path):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="Process images and generate annotations using GPT-4o-mini.")
+    parser = argparse.ArgumentParser(description="Process images and generate annotations using GPT-4.")
     parser.add_argument("--dataname", type=str, required=True, help="Dataset name (e.g., emotion6)")
     parser.add_argument("--api_key", type=str, required=True, help="OpenAI API key")
     parser.add_argument("--prompt_file", type=str, default="prompt_template.txt", help="Path to the prompt template file")
