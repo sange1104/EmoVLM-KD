@@ -3,5 +3,6 @@
     "vit_model": "google/vit-base-patch16-384",
     "vlm_model": "Qwen/Qwen2-VL-7B-Instruct",
     "output_dir": "<YOUR_OUTPUT_DIRECTORY>",   
-    "vlm_annotation_dir": "<YOUR_ANNOTATION_DIRECTORY>"
+    "vlm_annotation_dir": "<YOUR_ANNOTATION_DIRECTORY>",
+    "image_dir": "<YOUR_IMAGE_DIRECTORY>"
 }

@@ -1,0 +1,21 @@
+Write about the key elements of an image and the reasoning process behind inferring emotions based on the image and emotional information.
+
+The emotional information corresponds to the emotion category that best matches the image among the following 8 categories:
+
+amusement, excitement, sadness, fear, contentment, anger, disgust, awe
+
+Base your response on the elements of the image that could lead to inferring this emotional information.
+
+Do not include the correct emotion category in your response. Instead, describe the key elements of the image and the reasoning process that could lead to the emotional inference.
+
+==Emotion Information==
+{emotion}
+==
+
+Please follow this format in your response:
+
+1. key elements 
+The dark sky serves as a dramatic background, emphasizing people holding tools. Objects resembling agricultural tools appear threatening, creating tension. The synchronized movement of the crowd and strong silhouette effects contribute to a striking atmosphere. The high contrast highlights the shapes of the tools as primary visual elements.
+
+2. reasoning
+The crowd holding various tools suggests intense energy and the excitement of collective action. The silhouette contrasting with the dark sky evokes tension, potentially eliciting anxiety or fear. The threatening shapes of the tools and the collective behavior may hint at anger or hostility. The overall scene's organized yet uncertain atmosphere limits the possibility of comfort. There are no elements that evoke laughter or awe directly; the primary mood is one of focused energy and intensity.
