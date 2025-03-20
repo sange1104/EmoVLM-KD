@@ -33,7 +33,7 @@ def get_answer(client, user_prompt, encoded_img):
     """
     system_prompt = 'You are an expert in analyzing emotions expressed in images.'
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": [
